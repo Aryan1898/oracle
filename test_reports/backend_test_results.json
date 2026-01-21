@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-01-21T11:29:04.545268",
+  "base_url": "http://localhost:8001",
+  "total_tests": 11,
+  "passed_tests": 9,
+  "success_rate": 81.81818181818183,
+  "results": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "details": "Service: LLM Tracing API",
+      "timestamp": "2026-01-21T11:29:04.527515"
+    },
+    {
+      "test": "List Jobs",
+      "success": true,
+      "details": "Found 2 jobs: ['5d88a55f-1d3f-44da-bb03-4ff6a0697d3b', 'demo-job-123']",
+      "timestamp": "2026-01-21T11:29:04.528820"
+    },
+    {
+      "test": "Get Tool Categories",
+      "success": true,
+      "details": "Categories: ['execution', 'file_ops', 'reasoning', 'testing', 'agents', 'exit']",
+      "timestamp": "2026-01-21T11:29:04.530168"
+    },
+    {
+      "test": "Invalid Job ID Handling",
+      "success": true,
+      "details": "Correctly returned 404",
+      "timestamp": "2026-01-21T11:29:04.537350"
+    },
+    {
+      "test": "Get Job Info (5d88a55f...)",
+      "success": true,
+      "details": "Model: claude-sonnet-4-5?thinking_mode=true, Status: COMPLETED",
+      "timestamp": "2026-01-21T11:29:04.538707"
+    },
+    {
+      "test": "Get Trajectories (5d88a55f...)",
+      "success": true,
+      "details": "Found 47 trajectory steps",
+      "timestamp": "2026-01-21T11:29:04.540644"
+    },
+    {
+      "test": "Get Summary (5d88a55f...)",
+      "success": true,
+      "details": "Steps: 47, Success Rate: 89.36%",
+      "timestamp": "2026-01-21T11:29:04.542068"
+    },
+    {
+      "test": "Data Consistency Check",
+      "success": true,
+      "details": "Trajectory count matches summary (47 steps)",
+      "timestamp": "2026-01-21T11:29:04.542124"
+    },
+    {
+      "test": "Get Job Info (demo-job...)",
+      "success": true,
+      "details": "Model: gpt-5.2, Status: COMPLETED",
+      "timestamp": "2026-01-21T11:29:04.543281"
+    },
+    {
+      "test": "Get Trajectories (demo-job...)",
+      "success": false,
+      "details": "Status: 404",
+      "timestamp": "2026-01-21T11:29:04.544240"
+    },
+    {
+      "test": "Get Summary (demo-job...)",
+      "success": false,
+      "details": "Status: 404",
+      "timestamp": "2026-01-21T11:29:04.545134"
+    }
+  ]
+}
