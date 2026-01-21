@@ -96,6 +96,22 @@ MOCK_TRAJECTORY_DATA = {
         {"created_at": "2026-01-21 09:20:44.436000 UTC", "agent_name": "EmergentAssistant", "request_id": "20057d09-534f-4457-b264-ed8421790291", "step_num": 43, "function_name": "", "env_success": None, "duration_ms": 450, "tokens_input": 90, "tokens_output": 45},
         {"created_at": "2026-01-21 09:20:55.717000 UTC", "agent_name": "EmergentAssistant", "request_id": "a951e1c4-f0ab-4cbe-a35a-ad22951a4005", "step_num": 44, "function_name": "PARALLEL_TOOLS", "env_success": True, "duration_ms": 2500, "tokens_input": 1380, "tokens_output": 720},
         {"created_at": "2026-01-21 09:21:03.148000 UTC", "agent_name": "EmergentAssistant", "request_id": "687ed3d4-7318-4bb6-af8c-832fbd68c32a", "step_num": 45, "function_name": "exit_cost_credit_limit_reached", "env_success": True, "duration_ms": 100, "tokens_input": 50, "tokens_output": 25}
+    ],
+    "demo-job-123": [
+        {"created_at": "2026-01-20 14:30:05.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-001", "step_num": -1, "function_name": "initial-llm", "env_success": None, "duration_ms": 2000, "tokens_input": 1200, "tokens_output": 600},
+        {"created_at": "2026-01-20 14:30:15.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-002", "step_num": 0, "function_name": "think", "env_success": True, "duration_ms": 1500, "tokens_input": 800, "tokens_output": 1200},
+        {"created_at": "2026-01-20 14:30:25.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-003", "step_num": 1, "function_name": "view_bulk", "env_success": True, "duration_ms": 1200, "tokens_input": 500, "tokens_output": 3500},
+        {"created_at": "2026-01-20 14:30:40.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-004", "step_num": 2, "function_name": "PARALLEL_TOOLS", "env_success": True, "duration_ms": 3200, "tokens_input": 1800, "tokens_output": 1100},
+        {"created_at": "2026-01-20 14:31:00.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-005", "step_num": 3, "function_name": "bulk_file_writer", "env_success": True, "duration_ms": 4500, "tokens_input": 4200, "tokens_output": 3000},
+        {"created_at": "2026-01-20 14:31:30.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-006", "step_num": 4, "function_name": "execute_bash", "env_success": True, "duration_ms": 1800, "tokens_input": 400, "tokens_output": 200},
+        {"created_at": "2026-01-20 14:31:45.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-007", "step_num": 5, "function_name": "screenshot_tool", "env_success": True, "duration_ms": 5000, "tokens_input": 500, "tokens_output": 6000},
+        {"created_at": "2026-01-20 14:32:10.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-008", "step_num": 6, "function_name": "search_replace", "env_success": True, "duration_ms": 1100, "tokens_input": 1000, "tokens_output": 500},
+        {"created_at": "2026-01-20 14:32:25.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-009", "step_num": 7, "function_name": "execute_bash", "env_success": True, "duration_ms": 1600, "tokens_input": 350, "tokens_output": 180},
+        {"created_at": "2026-01-20 14:32:45.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-010", "step_num": 8, "function_name": "testing_agent_v3", "env_success": True, "duration_ms": 8000, "tokens_input": 3500, "tokens_output": 2000},
+        {"created_at": "2026-01-20 14:33:30.000000 UTC", "agent_name": "SkilledAssistant", "request_id": "demo-req-011", "step_num": 9, "function_name": "think", "env_success": True, "duration_ms": 1800, "tokens_input": 2000, "tokens_output": 1500},
+        {"created_at": "2026-01-20 14:33:50.000000 UTC", "agent_name": "SkilledAssistant", "request_id": "demo-req-012", "step_num": 10, "function_name": "browser_automation", "env_success": True, "duration_ms": 5500, "tokens_input": 1500, "tokens_output": 800},
+        {"created_at": "2026-01-20 14:34:30.000000 UTC", "agent_name": "SkilledAssistant", "request_id": "demo-req-013", "step_num": 11, "function_name": "test_finish", "env_success": True, "duration_ms": 500, "tokens_input": 150, "tokens_output": 80},
+        {"created_at": "2026-01-20 14:34:45.000000 UTC", "agent_name": "EmergentAssistant", "request_id": "demo-req-014", "step_num": 12, "function_name": "finish", "env_success": True, "duration_ms": 800, "tokens_input": 200, "tokens_output": 100}
     ]
 }
 
