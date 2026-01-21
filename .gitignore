@@ -38,3 +38,7 @@ htmlcov/
 .idea/
 .vscode/
 
+-e 
+# Environment files
+*.env
+*.env.*
