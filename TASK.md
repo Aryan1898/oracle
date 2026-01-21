@@ -3,8 +3,8 @@
 ## Bootstrap
 - [x] Initialize git repository
 - [x] Create initial commit
-- [ ] Add remote
-- [ ] Push to remote
+- [x] Add remote
+- [x] Push to remote
 
 ## Discovered During Work
 - (none)
